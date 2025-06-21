@@ -1,0 +1,158 @@
+/* style.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  animation: slideUp 0.8s ease forwards;
+  transition: all 0.3s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  color: #555;
+  font-weight: 500;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #9b59b6;
+  box-shadow: 0 0 10px rgba(155, 89, 182, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background: #8e44ad;
+  transform: scale(1.03);
+}
+
+p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+}
+
+a {
+  color: #9b59b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fav-btn {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+    transition: transform 0.2s ease;
+    vertical-align: middle;
+}
+
+.fav-btn:hover {
+    transform: scale(1.2);
+}
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.progress-bar div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.progress-bar div.active {
+    font-weight: bold;
+    color: #4CAF50;
+    border-color: #4CAF50;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f4f7, #e0f7fa); /* Light gradient */
+    color: #333;
+}
+#order-animation img {
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.8; }
+}
