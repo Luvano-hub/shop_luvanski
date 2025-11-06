@@ -2,7 +2,7 @@
 
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)]()
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)]()
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-for-the-badge&logo=html5&logoColor=white)]()
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
 
@@ -31,16 +31,16 @@ Below is a brief overview of the platform's core pages, with a screenshot and de
 
 | Page Name & Role | Description | Screenshot |
 | :--- | :--- | :--- |
-| **User Registration & Login** (All Roles) | New users choose their account type (Buyer or Seller) and register. Passwords are encrypted before storage. Admins use a separate "Staff Access" link on the login page. | ![Registration](readme-assets/register.png?raw=true&width=500) |
-| **Admin Dashboard** (Admin) | Provides a comprehensive overview, including total users, stores, products, orders, and sales reports. Allows administrators to manage all platform activity. | ![Admin Dashboard](readme-assets/admin-dashboard.png?raw=true&width=500) |
-| **Seller Dashboard** (Seller) | The central hub for sellers. Allows quick access to **Store Creation**, **Inventory Management**, and **Order Management**. | ![Seller Dashboard](readme-assets/seller-dashboard.png?raw=true&width=500) |
-| **Manage Inventory** (Seller) | Sellers can list new products, edit existing product details (name, price, quantity, description, and image), or remove items from their store. | ![Manage Inventory](readme-assets/manage-inventory.png?raw=true&width=500) |
-| **Manage Orders** (Seller) | Displays all incoming orders. Sellers can view buyer details and update the **Order Status** (e.g., Pending, Processing, Shipped) to keep buyers informed. | ![Manage Orders](readme-assets/manage-orders.png?raw=true&width=500) |
-| **Buyer Landing Page** (Buyer) | The main product browsing page. Displays all available products and allows users to filter the view by selecting specific **Categories**. | ![Buyer Dashboard](readme-assets/buyer-dashboard.png?raw=true&width=500) |
-| **Favourites Page** (Buyer) | Stores products marked with the heart icon. Allows buyers to keep track of items they are interested in buying later. | ![Favourites](readme-assets/favourites.png?raw=true&width=500) |
-| **Shopping Cart** (Buyer) | Users can review items they intend to purchase, adjust quantities, remove items, and proceed to the multi-step checkout process. | ![Shopping Cart](readme-assets/shopping-cart.png?raw=true&width=500) |
-| **3-Step Checkout** (Buyer) | **Step 1: Delivery** (Choose method & address), **Step 2: Payment** (Enter card info), and **Step 3: Confirmation** (Final summary review before placing order). | ![Checkout Delivery](readme-assets/checkout-delivery.png?raw=true&width=500) |
-| **Order History** (Buyer) | A dedicated page for buyers to view all past and current orders, including the **real-time status** as updated by the seller. | ![Buyer Order History](readme-assets/buyer-order-history.png?raw=true&width=500) |
+| **User Registration & Login** (All Roles) | New users choose their account type (Buyer or Seller) and register. Passwords are encrypted before storage. Admins use a separate "Staff Access" link on the login page. | ![Registration](readme-assets/register.jpg?raw=true&width=250) |
+| **Admin Dashboard** (Admin) | Provides a comprehensive overview, including total users, stores, products, orders, and sales reports. Allows administrators to manage all platform activity. | ![Admin Dashboard](readme-assets/admin-dashboard.jpg?raw=true&width=250) |
+| **Seller Dashboard** (Seller) | The central hub for sellers. Allows quick access to **Store Creation**, **Inventory Management**, and **Order Management**. | ![Seller Dashboard](readme-assets/seller-dashboard.jpg?raw=true&width=250) |
+| **Manage Inventory** (Seller) | Sellers can list new products, edit existing product details (name, price, quantity, description, and image), or remove items from their store. | ![Manage Inventory](readme-assets/manage-inventory.jpg?raw=true&width=250) |
+| **Manage Orders** (Seller) | Displays all incoming orders. Sellers can view buyer details and update the **Order Status** (e.g., Pending, Processing, Shipped) to keep buyers informed. | ![Manage Orders](readme-assets/manage-orders.jpg?raw=true&width=250) |
+| **Buyer Landing Page** (Buyer) | The main product browsing page. Displays all available products and allows users to filter the view by selecting specific **Categories**. | ![Buyer Dashboard](readme-assets/buyer-dashboard.jpg?raw=true&width=250) |
+| **Favourites Page** (Buyer) | Stores products marked with the heart icon. Allows buyers to keep track of items they are interested in buying later. | ![Favourites](readme-assets/favourites.jpg?raw=true&width=250) |
+| **Shopping Cart** (Buyer) | Users can review items they intend to purchase, adjust quantities, remove items, and proceed to the multi-step checkout process. | ![Shopping Cart](readme-assets/shopping-cart.jpg?raw=true&width=250) |
+| **3-Step Checkout** (Buyer) | **Step 1: Delivery** (Choose method & address), **Step 2: Payment** (Enter card info), and **Step 3: Confirmation** (Final summary review before placing order). | ![Checkout Delivery](readme-assets/checkout-delivery.jpg?raw=true&width=250) |
+| **Order History** (Buyer) | A dedicated page for buyers to view all past and current orders, including the **real-time status** as updated by the seller. | ![Buyer Order History](readme-assets/buyer-order-history.jpg?raw=true&width=250) |
 
 ---
 
@@ -66,5 +66,3 @@ Below is a brief overview of the platform's core pages, with a screenshot and de
 | :--- | :--- |
 | **Live Website** | [http://shopluvanski.great-site.net/register.php](http://shopluvanski.great-site.net/register.php) |
 | **GitHub Repository**| [https://github.com/Luvano-hub/shop_luvanski.git](https://github.com/Luvano-hub/shop_luvanski.git) |
-
----
